@@ -1,4 +1,4 @@
-public class Circle {
+public class Circle extends {
 
     private Point center;
     private int radius;
@@ -29,4 +29,16 @@ public class Circle {
 
         }
     }
+
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "center=" + center +
+                ", radius=" + radius +
+                '}';
+    }
+}
+public double area(){
+    return Math.PI * this.radius * this.radius;
+public double
 }
